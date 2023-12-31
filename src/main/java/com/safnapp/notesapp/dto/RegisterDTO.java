@@ -11,7 +11,7 @@ public class RegisterDTO {
 	private String name;
 	
 	@NotBlank(message = "Mobile number cannot be blank")
-    @Pattern(regexp = "\\d{10}", message = "Invalid mobile number")
+    @Pattern(regexp = "^\\+?\\d+$", message = "Invalid mobile number")
 	private String mobile;
 	
 	@NotBlank(message = "Password cannot be blank")
