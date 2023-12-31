@@ -1,6 +1,6 @@
 # Notes Spring Boot API
 
-This is a Spring Boot project which is used to add text notes and images under folder. Folder can be public and private.
+This is a Spring Boot API backend project which is used to add text notes and images under folder. Folder can be public and private.
 
 ## Prerequisites
 
