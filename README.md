@@ -29,3 +29,11 @@ Build and run the project using Maven:
 
 ```bash
 mvn spring-boot:run
+```
+
+## API Documentation
+The API documentation is available in Postman. Please click the link below
+
+```bash
+   https://documenter.getpostman.com/view/3047950/2s9YsDkFMy
+```
