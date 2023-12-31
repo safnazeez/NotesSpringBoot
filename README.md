@@ -23,14 +23,6 @@ Make sure you have the following installed:
     cd NotesSpringBoot
     ```
 
-## Project Structure
-
-Explain the high-level structure of your project. Highlight important directories and files.
-
-## Configuration
-
-Provide information about any configuration files or environment variables that need to be set up.
-
 ## Running the Application
 
 Build and run the project using Maven:
