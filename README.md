@@ -52,13 +52,36 @@ Make sure you have the following installed:
     cd NotesSpringBoot
     ```
 
+## Database Setup
+
+1. **Create a PostgreSQL Database:**
+   - Open a PostgreSQL client or use the command line to create a new database:
+
+     ```sql
+     CREATE DATABASE your_database_name;
+     ```
+
+2. **Configure Database Credentials:**
+   - Open the `src/main/resources/application.properties` file.
+   - Update the following properties with your PostgreSQL database credentials:
+
+     ```properties
+     spring.datasource.url=jdbc:postgresql://localhost:5432/your_database_name
+     spring.datasource.username=your_database_username
+     spring.datasource.password=your_database_password
+     ```
+
+   Replace `your_database_name`, `your_database_username`, and `your_database_password` with your actual database name, username, and password.
+
 ## Running the Application
 
-Build and run the project using Maven:
+Open the project in your preferred Integrated Development Environment (IDE). Run the project using Maven:
 
 ```bash
 mvn spring-boot:run
 ```
+
+I have used SpringToolSuite4 to build the app. I did RunAs Spring boot App. The project will start at port 8080 by default.
 
 ## API Documentation
 The API documentation is available in Postman. Please click the link below
